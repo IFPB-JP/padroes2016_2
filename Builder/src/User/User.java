@@ -25,11 +25,25 @@ public class User
     public int getAge() {
         return age;
     }
+    
+    public void setAge(int age){
+    	this.age = age;
+    }
+    
     public String getPhone() {
         return phone;
     }
+    
+    public void setPhone(String p){
+    	this.phone = p;
+    }
+    
     public String getAddress() {
         return address;
+    }
+    
+    public void setAddress(String a){
+    	this.address = a;
     }
  
     @Override
